@@ -1,0 +1,19 @@
+{
+    "name": "tests/study-plan-icons",
+    "description": "A site package that replaces study plan glyphs, one in the right file and one in the wrong one, for tests",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-core": "~13.4.35 || ~14.3.7",
+        "fgtclb/academic-study-plan": "~3.0.0@dev"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "test_study_plan_icons",
+            "version": "3.0.0-dev",
+            "Package": {
+                "providesPackages": []
+            }
+        }
+    }
+}
